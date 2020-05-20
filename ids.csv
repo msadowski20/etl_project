@@ -1,0 +1,552 @@
+﻿ID,Name,Type
+B10,Agrias Butterfly,Bug
+B69,Ant,Bug
+B14,Atlas Moth,Bug
+B68,Bagworm,Bug
+B34,Banded Dragonfly,Bug
+B21,Bell Cricket,Bug
+B49,Blue Weevil Beetle,Bug
+B26,Brown Cicada,Bug
+B77,Centipede,Bug
+B31,Cicada Shell,Bug
+B47,Citrus Long-Horned Beetle,Bug
+B05,Common Bluebottle,Bug
+B01,Common Butterfly,Bug
+B20,Cricket,Bug
+B59,Cyclommatus Stag,Bug
+B35,Damselfly,Bug
+B33,Darner Dragonfly,Bug
+B39,Diving Beetle,Bug
+B53,Drone Beetle,Bug
+B50,Dung Beetle,Bug
+B51,Earth-Boring Dung Beetle,Bug
+B09,Emperor Butterfly,Bug
+B30,Evening Cicada,Bug
+B36,Firefly,Bug
+B74,Flea,Bug
+B72,Fly,Bug
+B28,Giant Cicada,Bug
+B57,Giant Stag,Bug
+B40,Giant Water Bug,Bug
+B61,Giraffe Stag,Bug
+B60,Golden Stag,Bug
+B54,Goliath Beetle,Bug
+B19,Grasshopper,Bug
+B07,Great Purple Emperor,Bug
+B70,Hermit Crab,Bug
+B24,Honeybee,Bug
+B63,Horned Atlas,Bug
+B62,Horned Dynastid,Bug
+B64,Horned Elephant,Bug
+B65,Horned Hercules,Bug
+B45,Jewel Beetle,Bug
+B43,Ladybug,Bug
+B16,Long Locust,Bug
+B15,Madagascan Sunset Moth,Bug
+B42,Man-Faced Stink Bug,Bug
+B22,Mantis,Bug
+B17,Migratory Locust,Bug
+B56,Miyama Stag,Bug
+B37,Mole Cricket,Bug
+B08,Monarch Butterfly,Bug
+B73,Mosquito,Bug
+B13,Moth,Bug
+B23,Orchid Mantis,Bug
+B06,Paper Kite Butterfly,Bug
+B04,Peacock Butterfly,Bug
+B76,Pill Bug,Bug
+B38,Pondskater,Bug
+B12,Queen Alexandra Birdwing,Bug
+B58,Rainbow Stag,Bug
+B11,Rajah Brooke's Birdwing,Bug
+B32,Red Dragonfly,Bug
+B18,Rice Grasshopper,Bug
+B27,Robust Cicada,Bug
+B48,Rosalia Batesi Beetle,Bug
+B55,Saw Stag,Bug
+B52,Scarab Beetle,Bug
+B80,Scorpion,Bug
+B75,Snail,Bug
+B78,Spider,Bug
+B41,Stinkbug,Bug
+B79,Tarantula,Bug
+B44,Tiger Beetle,Bug
+B03,Tiger Butterfly,Bug
+B46,Violin Beetle,Bug
+B29,Walker Cicada,Bug
+B67,Walking Leaf,Bug
+B66,Walking Stick,Bug
+B25,Wasp,Bug
+B71,Wharf Roach,Bug
+B02,Yellow Butterfly,Bug
+F56,Anchovy,Fish
+F36,Angelfish,Fish
+F44,Arapaima,Fish
+F41,Arowana,Fish
+F58,Barred Knifejaw,Fish
+F79,Barreleye,Fish
+F37,Betta,Fish
+F01,Bitterling,Fish
+F22,Black Bass,Fish
+F54,Blowfish,Fish
+F67,Blue Marlin,Fish
+F20,Bluegill,Fish
+F51,Butterfly Fish,Fish
+F05,Carp,Fish
+F18,Catfish,Fish
+F28,Char,Fish
+F27,Cherry Salmon,Fish
+F49,Clown Fish,Fish
+F80,Coelacanth,Fish
+F11,Crawfish,Fish
+F03,Crucian Carp,Fish
+F61,Dab,Fish
+F04,Dace,Fish
+F42,Dorado,Fish
+F77,Football Fish,Fish
+F16,Freshwater Goby,Fish
+F15,Frog,Fish
+F43,Gar,Fish
+F19,Giant Snakehead,Fish
+F68,Giant Trevally,Fish
+F29,Golden Trout,Fish
+F07,Goldfish,Fish
+F74,Great White Shark,Fish
+F34,Guppy,Fish
+F73,Hammerhead Shark,Fish
+F57,Horse Mackerel,Fish
+F10,Killifish,Fish
+F32,King Salmon,Fish
+F06,Koi,Fish
+F17,Loach,Fish
+F69,Mahi-Mahi,Fish
+F33,Mitten Crab,Fish
+F64,Moray Eel,Fish
+F52,Napoleonfish,Fish
+F38,Neon Tetra,Fish
+F35,Nibble Fish,Fish
+F78,Oarfish,Fish
+F70,Ocean Sunfish,Fish
+F62,Olive Flounder,Fish
+F02,Pale Chub,Fish
+F24,Pike,Fish
+F40,Piranha,Fish
+F25,Pond Smelt,Fish
+F08,Pop-eyed Goldfish,Fish
+F55,Puffer Fish,Fish
+F39,Rainbowfish,Fish
+F09,Ranchu Goldfish,Fish
+F71,Ray,Fish
+F60,Red Snapper,Fish
+F65,Ribbon Eel,Fish
+F45,Saddled Bichir,Fish
+F31,Salmon,Fish
+F72,Saw Shark,Fish
+F59,Sea Bass,Fish
+F47,Sea Butterfly,Fish
+F48,Sea Horse,Fish
+F13,Snapping Turtle,Fish
+F12,Soft-shelled Turtle,Fish
+F63,Squid,Fish
+F30,Stringfish,Fish
+F46,Sturgeon,Fish
+F76,Suckerfish,Fish
+F50,Surgeonfish,Fish
+F26,Sweetfish,Fish
+F14,Tadpole,Fish
+F23,Tilapia,Fish
+F66,Tuna,Fish
+F75,Whale Shark,Fish
+F21,Yellow Perch,Fish
+F53,Zebra Turkeyfish,Fish
+villager-admiral,Admiral,Villager
+villager-agent-s,Agent S,Villager
+villager-agnes,Agnes,Villager
+villager-al,Al,Villager
+villager-alfonso,Alfonso,Villager
+villager-alice,Alice,Villager
+villager-alli,Alli,Villager
+villager-amelia,Amelia,Villager
+villager-anabelle,Anabelle,Villager
+villager-anchovy,Anchovy,Villager
+villager-angus,Angus,Villager
+villager-anicotti,Anicotti,Villager
+villager-ankha,Ankha,Villager
+villager-annalisa,Annalisa,Villager
+villager-annalise,Annalise,Villager
+villager-antonio,Antonio,Villager
+villager-apollo,Apollo,Villager
+villager-apple,Apple,Villager
+villager-astrid,Astrid,Villager
+villager-audie,Audie,Villager
+villager-aurora,Aurora,Villager
+villager-ava,Ava,Villager
+villager-avery,Avery,Villager
+villager-axel,Axel,Villager
+villager-baabara,Baabara,Villager
+villager-bam,Bam,Villager
+villager-bangle,Bangle,Villager
+villager-barold,Barold,Villager
+villager-bea,Bea,Villager
+villager-beardo,Beardo,Villager
+villager-beau,Beau,Villager
+villager-becky,Becky,Villager
+villager-bella,Bella,Villager
+villager-benedict,Benedict,Villager
+villager-benjamin,Benjamin,Villager
+villager-bertha,Bertha,Villager
+villager-bettina,Bettina,Villager
+villager-bianca,Bianca,Villager
+villager-biff,Biff,Villager
+villager-big-top,Big Top,Villager
+villager-bill,Bill,Villager
+villager-billy,Billy,Villager
+villager-biskit,Biskit,Villager
+villager-bitty,Bitty,Villager
+villager-blaire,Blaire,Villager
+villager-blanche,Blanche,Villager
+villager-bluebear,Bluebear,Villager
+villager-bob,Bob,Villager
+villager-bonbon,Bonbon,Villager
+villager-bones,Bones,Villager
+villager-boomer,Boomer,Villager
+villager-boone,Boone,Villager
+villager-boots,Boots,Villager
+villager-boris,Boris,Villager
+villager-boyd,Boyd,Villager
+villager-bree,Bree,Villager
+villager-broccolo,Broccolo,Villager
+villager-broffina,Broffina,Villager
+villager-bruce,Bruce,Villager
+villager-bubbles,Bubbles,Villager
+villager-buck,Buck,Villager
+villager-bud,Bud,Villager
+villager-bunnie,Bunnie,Villager
+villager-butch,Butch,Villager
+villager-buzz,Buzz,Villager
+villager-cally,Cally,Villager
+villager-camofrog,Camofrog,Villager
+villager-canberra,Canberra,Villager
+villager-candi,Candi,Villager
+villager-carmen2,Carmen,Villager
+villager-caroline,Caroline,Villager
+villager-carrie,Carrie,Villager
+villager-cashmere,Cashmere,Villager
+villager-celia,Celia,Villager
+villager-cesar,Cesar,Villager
+villager-chadder,Chadder,Villager
+villager-charlise,Charlise,Villager
+villager-cheri,Cheri,Villager
+villager-cherry,Cherry,Villager
+villager-chester,Chester,Villager
+villager-chevre,Chevre,Villager
+villager-chief,Chief,Villager
+villager-chops,Chops,Villager
+villager-chow,Chow,Villager
+villager-chrissy,Chrissy,Villager
+villager-claude,Claude,Villager
+villager-claudia,Claudia,Villager
+villager-clay,Clay,Villager
+villager-cleo,Cleo,Villager
+villager-clyde,Clyde,Villager
+villager-coach,Coach,Villager
+villager-cobb,Cobb,Villager
+villager-coco,Coco,Villager
+villager-cole,Cole,Villager
+villager-colton,Colton,Villager
+villager-cookie,Cookie,Villager
+villager-cousteau,Cousteau,Villager
+villager-cranston,Cranston,Villager
+villager-croque,Croque,Villager
+villager-cube,Cube,Villager
+villager-curlos,Curlos,Villager
+villager-curly,Curly,Villager
+villager-curt,Curt,Villager
+villager-cyd,Cyd,Villager
+villager-cyrano,Cyrano,Villager
+villager-daisy,Daisy,Villager
+villager-deena,Deena,Villager
+villager-deirdre,Deirdre,Villager
+villager-del,Del,Villager
+villager-deli,Deli,Villager
+villager-derwin,Derwin,Villager
+villager-diana,Diana,Villager
+villager-diva,Diva,Villager
+villager-dizzy,Dizzy,Villager
+villager-dobie,Dobie,Villager
+villager-doc,Doc,Villager
+villager-dom,Dom,Villager
+villager-dora,Dora,Villager
+villager-dotty,Dotty,Villager
+villager-drago,Drago,Villager
+villager-drake,Drake,Villager
+villager-drift,Drift,Villager
+villager-ed,Ed,Villager
+villager-egbert,Egbert,Villager
+villager-elise,Elise,Villager
+villager-ellie,Ellie,Villager
+villager-elmer,Elmer,Villager
+villager-eloise,Eloise,Villager
+villager-elvis,Elvis,Villager
+villager-erik,Erik,Villager
+villager-eugene,Eugene,Villager
+villager-eunice,Eunice,Villager
+villager-fang,Fang,Villager
+villager-fauna,Fauna,Villager
+villager-felicity,Felicity,Villager
+villager-filbert,Filbert,Villager
+villager-flip,Flip,Villager
+villager-flo,Flo,Villager
+villager-flora,Flora,Villager
+villager-flurry,Flurry,Villager
+villager-francine,Francine,Villager
+villager-frank,Frank,Villager
+villager-freckles,Freckles,Villager
+villager-freya,Freya,Villager
+villager-friga,Friga,Villager
+villager-frita,Frita,Villager
+villager-frobert,Frobert,Villager
+villager-fuchsia,Fuchsia,Villager
+villager-gabi,Gabi,Villager
+villager-gala,Gala,Villager
+villager-gaston,Gaston,Villager
+villager-gayle,Gayle,Villager
+villager-genji,Genji,Villager
+villager-gigi,Gigi,Villager
+villager-gladys,Gladys,Villager
+villager-gloria,Gloria,Villager
+villager-goldie,Goldie,Villager
+villager-gonzo,Gonzo,Villager
+villager-goose,Goose,Villager
+villager-graham,Graham,Villager
+villager-greta,Greta,Villager
+villager-grizzly,Grizzly,Villager
+villager-groucho,Groucho,Villager
+villager-gruff,Gruff,Villager
+villager-gwen,Gwen,Villager
+villager-hamlet,Hamlet,Villager
+villager-hamphrey,Hamphrey,Villager
+villager-hans,Hans,Villager
+villager-harry,Harry,Villager
+villager-hazel2,Hazel,Villager
+villager-henry,Henry,Villager
+villager-hippeux,Hippeux,Villager
+villager-hopkins,Hopkins,Villager
+villager-hopper,Hopper,Villager
+villager-hornsby,Hornsby,Villager
+villager-huck,Huck,Villager
+villager-hugh,Hugh,Villager
+villager-iggly,Iggly,Villager
+villager-ike,Ike,Villager
+villager-jacob,Jacob,Villager
+villager-jacques,Jacques,Villager
+villager-jambette,Jambette,Villager
+villager-jay,Jay,Villager
+villager-jeremiah,Jeremiah,Villager
+villager-jitters,Jitters,Villager
+villager-joey,Joey,Villager
+villager-judy,Judy,Villager
+villager-julia,Julia,Villager
+villager-julian,Julian,Villager
+villager-june,June,Villager
+villager-kabuki,Kabuki,Villager
+villager-katt,Katt,Villager
+villager-keaton,Keaton,Villager
+villager-ken,Ken,Villager
+villager-ketchup,Ketchup,Villager
+villager-kevin,Kevin,Villager
+villager-kid-cat,Kid Cat,Villager
+villager-kidd,Kidd,Villager
+villager-kiki,Kiki,Villager
+villager-kitt,Kitt,Villager
+villager-kitty,Kitty,Villager
+villager-klaus,Klaus,Villager
+villager-knox,Knox,Villager
+villager-kody,Kody,Villager
+villager-kyle,Kyle,Villager
+villager-leonardo,Leonardo,Villager
+villager-leopold,Leopold,Villager
+villager-lily,Lily,Villager
+villager-limberg,Limberg,Villager
+villager-lionel,Lionel,Villager
+villager-lobo,Lobo,Villager
+villager-lolly,Lolly,Villager
+villager-lopez,Lopez,Villager
+villager-louie,Louie,Villager
+villager-lucha,Lucha,Villager
+villager-lucky,Lucky,Villager
+villager-lucy,Lucy,Villager
+villager-lyman,Lyman,Villager
+villager-mac,Mac,Villager
+villager-maddie,Maddie,Villager
+villager-maelle,Maelle,Villager
+villager-maggie,Maggie,Villager
+villager-mallary,Mallary,Villager
+villager-maple,Maple,Villager
+villager-marcel,Marcel,Villager
+villager-marcie,Marcie,Villager
+villager-margie,Margie,Villager
+villager-marina,Marina,Villager
+villager-marshal,Marshal,Villager
+villager-mathilda,Mathilda,Villager
+villager-megan,Megan,Villager
+villager-melba,Melba,Villager
+villager-merengue,Merengue,Villager
+villager-merry,Merry,Villager
+villager-midge,Midge,Villager
+villager-mint,Mint,Villager
+villager-mira,Mira,Villager
+villager-miranda,Miranda,Villager
+villager-mitzi,Mitzi,Villager
+villager-moe,Moe,Villager
+villager-molly,Molly,Villager
+villager-monique,Monique,Villager
+villager-monty,Monty,Villager
+villager-moose,Moose,Villager
+villager-mott,Mott,Villager
+villager-muffy,Muffy,Villager
+villager-murphy,Murphy,Villager
+villager-nan,Nan,Villager
+villager-nana,Nana,Villager
+villager-naomi,Naomi,Villager
+villager-nate,Nate,Villager
+villager-nibbles,Nibbles,Villager
+villager-norma,Norma,Villager
+villager-octavian,Octavian,Villager
+villager-ohare,O'Hare,Villager
+villager-olaf,Olaf,Villager
+villager-olive,Olive,Villager
+villager-olivia,Olivia,Villager
+villager-opal,Opal,Villager
+villager-ozzie,Ozzie,Villager
+villager-pancetti,Pancetti,Villager
+villager-pango,Pango,Villager
+villager-paolo,Paolo,Villager
+villager-papi,Papi,Villager
+villager-pashmina,Pashmina,Villager
+villager-pate,Pate,Villager
+villager-patty,Patty,Villager
+villager-paula,Paula,Villager
+villager-peaches,Peaches,Villager
+villager-peanut,Peanut,Villager
+villager-pecan,Pecan,Villager
+villager-peck,Peck,Villager
+villager-peewee,Peewee,Villager
+villager-peggy,Peggy,Villager
+villager-pekoe,Pekoe,Villager
+villager-penelope,Penelope,Villager
+villager-phil,Phil,Villager
+villager-phoebe,Phoebe,Villager
+villager-pierce,Pierce,Villager
+villager-pietro,Pietro,Villager
+villager-pinky,Pinky,Villager
+villager-piper,Piper,Villager
+villager-pippy,Pippy,Villager
+villager-plucky,Plucky,Villager
+villager-pompom,Pompom,Villager
+villager-poncho,Poncho,Villager
+villager-poppy,Poppy,Villager
+villager-portia,Portia,Villager
+villager-prince,Prince,Villager
+villager-puck,Puck,Villager
+villager-puddles,Puddles,Villager
+villager-pudge,Pudge,Villager
+villager-punchy,Punchy,Villager
+villager-purrl,Purrl,Villager
+villager-queenie,Queenie,Villager
+villager-quillson,Quillson,Villager
+villager-raddle,Raddle,Villager
+villager-rasher,Rasher,Villager
+villager-raymond,Raymond,Villager
+villager-renee,RenÃ©e,Villager
+villager-reneigh,Reneigh,Villager
+villager-rex,Rex,Villager
+villager-rhonda,Rhonda,Villager
+villager-ribbot,Ribbot,Villager
+villager-ricky,Ricky,Villager
+villager-rizzo,Rizzo,Villager
+villager-roald,Roald,Villager
+villager-robin,Robin,Villager
+villager-rocco,Rocco,Villager
+villager-rocket,Rocket,Villager
+villager-rod,Rod,Villager
+villager-rodeo,Rodeo,Villager
+villager-rodney,Rodney,Villager
+villager-rolf,Rolf,Villager
+villager-rooney,Rooney,Villager
+villager-rory,Rory,Villager
+villager-roscoe,Roscoe,Villager
+villager-rosie,Rosie,Villager
+villager-rowan,Rowan,Villager
+villager-ruby,Ruby,Villager
+villager-rudy,Rudy,Villager
+villager-sally2,Sally,Villager
+villager-samson,Samson,Villager
+villager-sandy,Sandy,Villager
+villager-savannah,Savannah,Villager
+villager-scoot,Scoot,Villager
+villager-shari,Shari,Villager
+villager-sheldon,Sheldon,Villager
+villager-shep,Shep,Villager
+villager-sherb,Sherb,Villager
+villager-simon,Simon,Villager
+villager-skye,Skye,Villager
+villager-sly,Sly,Villager
+villager-snake,Snake,Villager
+villager-snooty,Snooty,Villager
+villager-soleil,Soleil,Villager
+villager-sparro,Sparro,Villager
+villager-spike,Spike,Villager
+villager-spork,Spork,Villager
+villager-sprinkle,Sprinkle,Villager
+villager-sprocket,Sprocket,Villager
+villager-static,Static,Villager
+villager-stella,Stella,Villager
+villager-sterling,Sterling,Villager
+villager-stinky,Stinky,Villager
+villager-stitches,Stitches,Villager
+villager-stu,Stu,Villager
+villager-sydney,Sydney,Villager
+villager-sylvana,Sylvana,Villager
+villager-sylvia,Sylvia,Villager
+villager-t-bone,T-Bone,Villager
+villager-tabby,Tabby,Villager
+villager-tad,Tad,Villager
+villager-tammi,Tammi,Villager
+villager-tammy,Tammy,Villager
+villager-tangy,Tangy,Villager
+villager-tank,Tank,Villager
+villager-tasha,Tasha,Villager
+villager-teddy,Teddy,Villager
+villager-tex,Tex,Villager
+villager-tia,Tia,Villager
+villager-tiffany,Tiffany,Villager
+villager-timbra,Timbra,Villager
+villager-tipper,Tipper,Villager
+villager-tom,Tom,Villager
+villager-truffles,Truffles,Villager
+villager-tucker,Tucker,Villager
+villager-tutu,Tutu,Villager
+villager-twiggy,Twiggy,Villager
+villager-tybalt,Tybalt,Villager
+villager-ursala,Ursala,Villager
+villager-velma,Velma,Villager
+villager-vesta,Vesta,Villager
+villager-vic,Vic,Villager
+villager-victoria,Victoria,Villager
+villager-violet,Violet,Villager
+villager-vivian,Vivian,Villager
+villager-vladimir,Vladimir,Villager
+villager-wade,Wade,Villager
+villager-walker,Walker,Villager
+villager-walt,Walt,Villager
+villager-wart-jr,Wart Jr.,Villager
+villager-weber,Weber,Villager
+villager-wendy,Wendy,Villager
+villager-whitney,Whitney,Villager
+villager-willow,Willow,Villager
+villager-winnie,Winnie,Villager
+villager-wolfgang,Wolfgang,Villager
+villager-yuka,Yuka,Villager
+villager-zell,Zell,Villager
+villager-zucker,Zucker,Villager
