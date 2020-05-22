@@ -2,9 +2,13 @@
 <!DOCTYPE html>
 <html>
    <body style = "font-family:'Zilla Slab'">
+
+<div style="background-image: url('Images/pattern-leaves-white.jpg');">
 <center><img src="Images/logo-acnh-en.png" class="center"></center><br>
 <center><img src="Images/Critterpedia.png" class="center"></center><br>
+</div>
 <h1><center>ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></h1>
+
 
 <h3> For this project, we have created a "Critterpedia" of all of the bugs, fish, and villagers within Animal Crossing: New Horizons. Using our tool, you will be able to...</h3)>
 
@@ -13,6 +17,8 @@
     <li>Keep track of which critters you have collected for your museum.</li>
     <li>Which residents you have on your island.</li>
 </ul>
+
+<center><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"></center>
 
 <h1> Before You Begin </h1>
 
@@ -28,6 +34,7 @@
     </ul></li>
 </ol>
 
+<center><img src="Images/share-image-1.png"></center>
 
 </body>
 </html>
