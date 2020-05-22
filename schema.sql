@@ -6,15 +6,15 @@ DROP TABLE months;
 DROP TABLE encyclopedia;
 
 CREATE TABLE encyclopedia (
-    ID VARCHAR(20)   NOT NULL,
-    Name VARCHAR(20),
+    ID VARCHAR   NOT NULL,
+    Name VARCHAR,
     Price INT,
-    Location VARCHAR(20),
+    Location VARCHAR,
     Shadow_size INT,
-    type VARCHAR(20),
+    type VARCHAR,
     numerical_id INT,
-    Gender VARCHAR(20),
-    Species VARCHAR(20),
+    Gender VARCHAR,
+    Species VARCHAR,
     CONSTRAINT pk_encyclopedia PRIMARY KEY (
         ID
      )
@@ -25,7 +25,7 @@ CREATE TABLE months (
     Jan BOOLEAN,
     Feb BOOLEAN,
     Mar BOOLEAN,
-    Apt BOOLEAN,
+    Apr BOOLEAN,
     May BOOLEAN,
     Jun BOOLEAN,
     Jul BOOLEAN,
@@ -41,9 +41,9 @@ CREATE TABLE months (
 );
 
 CREATE TABLE collection (
-    email_address VARCHAR(20)   NOT NULL ,
-    ID VARCHAR(20)   NOT NULL,
-    type VARCHAR(20),
+    email_address VARCHAR   NOT NULL ,
+    ID VARCHAR   NOT NULL,
+    type VARCHAR,
     caught BOOLEAN,
     donated BOOLEAN,
     resident BOOLEAN,
@@ -52,8 +52,8 @@ CREATE TABLE collection (
 );
 
 CREATE TABLE times (
-    ID VARCHAR(20)   NOT NULL,
-    time VARCHAR(20),
+    ID VARCHAR   NOT NULL,
+    time VARCHAR,
     CONSTRAINT pk_times PRIMARY KEY (
         ID
      ),
