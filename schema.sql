@@ -15,9 +15,7 @@ CREATE TABLE encyclopedia (
     numerical_id INT,
     Gender VARCHAR,
     Species VARCHAR,
-    CONSTRAINT pk_encyclopedia PRIMARY KEY (
-        ID
-     )
+    PRIMARY KEY (ID)
 );
 
 CREATE TABLE months (
@@ -30,14 +28,13 @@ CREATE TABLE months (
     Jun BOOLEAN,
     Jul BOOLEAN,
     Aug BOOLEAN,
+    Sep BOOLEAN,
     Dep BOOLEAN,
     Oct BOOLEAN,
     Nov BOOLEAN,
     Dec BOOLEAN,
-    CONSTRAINT pk_months PRIMARY KEY (
-        ID
-     ),
-	FOREIGN KEY (id) REFERENCES encyclopedia (id)
+    PRIMARY KEY (ID),
+    FOREIGN KEY (id) REFERENCES encyclopedia (id)
 );
 
 CREATE TABLE collection (
@@ -48,16 +45,14 @@ CREATE TABLE collection (
     donated BOOLEAN,
     resident BOOLEAN,
     PRIMARY KEY (email_address, ID),
-	FOREIGN KEY (id) REFERENCES encyclopedia (id)
+    FOREIGN KEY (id) REFERENCES encyclopedia (id)
 );
 
 CREATE TABLE times (
     ID VARCHAR   NOT NULL,
     time VARCHAR,
-    CONSTRAINT pk_times PRIMARY KEY (
-        ID
-     ),
-	FOREIGN KEY (id) REFERENCES encyclopedia (id)
+    PRIMARY KEY (ID),
+    FOREIGN KEY (id) REFERENCES encyclopedia (id)
 );
 
 
