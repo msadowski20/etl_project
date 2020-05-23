@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-   <body style = "font-family:'Zilla Slab'">
+<body style = "font-family:'Zilla Slab'">
 
 <div style="background-image: url('Images/pattern-leaves-white.jpg');">
 <center><img src="Images/logo-acnh-en.png" class="center"></center><br>
@@ -37,6 +37,18 @@
 <br>
 <center><img src="Images/nook.png"></center>
 <center><h2><b>Tom Nook</b><h2></center>
+
+<h1>File Structure</h1>
+<ul>
+    <li><b>Root</b></li>
+        <ul>
+            <li>README.md - This markdown document detailing the project.</li>
+            <li>schema.sql - The SQL to run to create the table structure for the ACNH_Critterpedia PostgresSQL database.</li>
+        </ul>
+    <li><b>Images</b> - Contains all image files needed for the README.md.</li>
+    <li><b>Notebooks</b> - Contains all of the project's Jupyter Notebooks.</li>
+    <li><b>Resources</b> - Contains the .csv data files needed for the table generation.</li>
+</ul>
 
 <h1>Data Structure</h1>
 <h2>ERD</h2>
