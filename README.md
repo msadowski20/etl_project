@@ -47,9 +47,15 @@
 
 <h2>Our Extraction, Transformation and Load Process</h2>
 <ul>
-    <li> Note, we will include screenshots of the notebook for the 1-bugs.ipynb the transformation process for 1-bugs.ipynb and 2-fish.ipynb was the same. </li>
+    <li>We scraped the Animal Crossing Wiki web pages for the Fish and Bugs data to pull out the tables.  The tables contain data for Fish and Bug Name, Price, Location, as well as the Time and Months that each is available to catch.  We put both of those tables into a DataFrame and assigned unique IDs for each item.</li>
+    <li>We pulled a csv file from Kaggle that contained the data for all of the Villagers such as Name, ID, Gender, Species.</li>
+    <li>We combined all of the data for Fish, Bugs and Villagers into a "Critterpedia" which can be used to track all of the players progress in collecting all possible critters.</li>
+    <li>Lastly, we created a user table which contains E-Mail addresses for players and their total collections.  This data was all created at random and does not contain any real user data.  This table would be used to track any players real progress in the game.
+    
 </ul>
 <ol>
+    <h4> ETL Process in 1-bugs.ipynb (displayed below) and 2-fish.ipynb(not displayed) </h4>
+    <p> Note, screenshots of the notebook for the 1-bugs.ipynb are included. The transformation process for 1-bugs.ipynb and 2-fish.ipynb was the same. </p>
     <li> We read the table from the wiki links provided <a href="#Sources"> in sources. </a>
     <img src = "Images/bugs_screenshot1.png" alt="Reading wiki Table">
     <li> We then changed values to clean the data. </li>
@@ -61,11 +67,8 @@
     <li> The loading is visualized in the screenshot below. </li>
     <img src = "Images/bugs_screenshot6.png" alt="Loading the data">
 </ol>
-    <li>We scraped the Animal Crossing Wiki web pages for the Fish and Bugs data to pull out the tables.  The tables contain data for Fish and Bug Name, Price, Location, as well as the Time and Months that each is available to catch.  We put both of those tables into a DataFrame and assigned unique IDs for each item.</li>
-    <li>We pulled a csv file from Kaggle that contained the data for all of the Villagers such as Name, ID, Gender, Species.</li>
-    <li>We combined all of the data for Fish, Bugs and Villagers into a "Critterpedia" which can be used to track all of the players progress in collecting all possible critters.</li>
-    <li>Lastly, we created a user table which contains E-Mail addresses for players and their total collections.  This data was all created at random and does not contain any real user data.  This table would be used to track any players real progress in the game.
 <ol>
+    <h4> ETL Process for 4-collections.ipynb </h4>
     <li>We imported a list of random E-mail addresses and put them into a dataframe.</li>
     <img src = "Images/email_screenshot.png" alt="Import E-Mail Addresses">
     <li>We randomly added critter IDs and Types for all of the E-mail address.</li>
@@ -73,7 +76,7 @@
     <li>Finally, we looped through all of the rows and added Boolean values for Caught and Donated for each user.  Also, we added a True value for Resident if the critter type was Villager.</li>
     <img src = "Images/caught_donated_screenshot.png" alt="Filled in Caught, Donated and Resident">
 </ol>
-</ul>
+
 
 <br>
 <center><img src="Images/nook.png"></center>
@@ -148,6 +151,7 @@
     <li><a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere">https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere</a></li>
     <li><a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)">https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
     <li><a href="https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv">https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv</a></li>
+    <li><a href="https://www.randomlists.com/email-addresses">https://www.randomlists.com/email-addresses</a></li>
 </ul>
 
 
