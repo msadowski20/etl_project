@@ -1,9 +1,9 @@
 -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-DROP TABLE times;
-DROP TABLE collection;
-DROP TABLE months;
-DROP TABLE encyclopedia;
+DROP TABLE IF EXISTS times;
+DROP TABLE IF EXISTS collection;
+DROP TABLE IF EXISTS months;
+DROP TABLE IF EXISTS encyclopedia;
 
 CREATE TABLE encyclopedia (
     ID VARCHAR   NOT NULL,
