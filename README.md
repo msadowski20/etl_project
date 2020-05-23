@@ -54,7 +54,7 @@
     
 </ul>
 <ol>
-    <h4> ETL Process in 1-bugs.ipynb (displayed below) and 2-fish.ipynb(not display) </h4>
+    <h4> ETL Process in 1-bugs.ipynb (displayed below) and 2-fish.ipynb(not displayed) </h4>
     <p> Note, screenshots of the notebook for the 1-bugs.ipynb are included. The transformation process for 1-bugs.ipynb and 2-fish.ipynb was the same. </p>
     <li> We read the table from the wiki links provided <a href="#Sources"> in sources. </a>
     <img src = "Images/bugs_screenshot1.png" alt="Reading wiki Table">
