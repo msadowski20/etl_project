@@ -44,8 +44,11 @@
 <h2>Our Data Transformation Process</h2>
 <ul>
     <li> Note, we will include screenshots of the notebook for the 1-bugs.ipynb the transformation process for 1-bugs.ipynb and 2-fish.ipynb was the same. </li>
+    <li> We read the table from the wiki links provided. <a href="#Sources"> here </a>
     <img src = "Images/bugs_screenshot1.png" alt="Reading wiki Table">
+    <li> We then changed values to clean the data. </li>
     <img src = "Images/bugs_screenshot2.png" alt="Changing cell values">
+    <li> Finally, in the following screenshots we are splitting the tables for the database. </li>
     <img src = "Images/bugs_screenshot3.png" alt="Creating encylopedia table">
     <img src = "Images/bugs_screenshot4.png" alt="Creating months table">
     <img src = "Images/bugs_screenshot5.png" alt="Creating time table">
@@ -122,7 +125,7 @@
 <br>
 <center><img src="Images/share-image-1.png"></center>
 
-<h1> Sources </h1>
+<h1 id="Sources"> Sources </h1>
 
 <ul>
     <li><a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere">https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere</a></li>
