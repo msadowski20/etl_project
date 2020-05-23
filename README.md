@@ -65,6 +65,14 @@
     <li>We pulled a csv file from Kaggle that contained the data for all of the Villagers such as Name, ID, Gender, Species.</li>
     <li>We combined all of the data for Fish, Bugs and Villagers into a "Critterpedia" which can be used to track all of the players progress in collecting all possible critters.</li>
     <li>Lastly, we created a user table which contains E-Mail addresses for players and their total collections.  This data was all created at random and does not contain any real user data.  This table would be used to track any players real progress in the game.
+<ol>
+    <li>We imported a list of random E-mail addresses and put them into a dataframe.</li>
+    <img src = "Images/email_screenshot.png" alt="Import E-Mail Addresses">
+    <li>We randomly added critter IDs and Types for all of the E-mail address.</li>
+    <img src = "Images/id_type_screenshot.png" alt="Add IDs and Types">
+    <li>Finally, we looped through all of the rows and added Boolean values for Caught and Donated for each user.  Also, we added a True value for Resident if the critter type was Villager.</li>
+    <img src = "Images/caught_donated_screenshot.png" alt="Filled in Caught, Donated and Resident">
+</ol>
 </ul>
 
 <br>
