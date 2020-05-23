@@ -7,14 +7,11 @@
 <center><img src="Images/logo-acnh-en.png" class="center"></center><br>
 <center><img src="Images/Critterpedia_Trans.png" class="center" width=1000></center><br>
 </div>
-<<<<<<< HEAD
+
 <h1><center><b>ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></b></h1>
-=======
-<h1><center><p align="center">ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></p></h1>
->>>>>>> a505293b847739bee53a650284ed029fbe7ba914
 
-
-<h2> For this project, we have created a "Critterpedia" of all of the bugs, fish, and villagers within Animal Crossing: New Horizons. Using our tool, you will be able to...</h2>
+<h2> For this project, we have created a "Critterpedia" of all of the bugs, fish, and villagers within Animal Crossing: New Horizons.</h2> 
+<h4>Using our tool, you will be able to...</h4>
 
 <ul>
     <li>Collect all of the data for each critter type, including when they are available throughout the year.</li>
@@ -25,24 +22,56 @@
 <center><img src="Images/shell-2.png"></center>
 
 <h1> Before You Begin </h1>
+<h4> Follow these steps </h4>
 
 <ol>
-<li>Create a new database in PostgresSQL titled "ACNH Critterpedia".</li>
+<li>Create a new database in PostgresSQL titled "ACNH_Critterpedia", and then open up the query tool in the new database.</li>
 
-<li>Run the schema.sql in the root to create the schema within PostgresSQL.</li>
+<li> Clone the repository to your local computer </li>
 
-<li>Run the Jupyter Notebooks within the Notebooks folder to populate the database with data scraped/acquired from the following sources:
-    <ul>
-    <li>Fish and Bugs data scraped from the Animal Crossing Wiki: <a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</a> and <a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
-    <li>Villager data from kaggle: <a href="https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv">https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv</a></li>
-    </ul></li>
+<li>Copy the code from schema.sql in the root of the repository into the query tool within PostgresSQL to create the database table structure.</li>
+
+<li>Open and update the <i>/Resources/config.py</i> file with your username and password for PostgresSQL.</li>
+
+<li>Run the Jupyter Notebooks within the Notebooks folder in the numerical order specified to populate the database.
+    <ol>
+        <li>bugs.ipynb</li>
+        <li>fish.ipynb</li>
+        <li>villagers.ipynb</li>
+        <li>collections.ipynb</li>
+    </ol>
+    </li>
 </ol>
+
+<center><img src="Images/shell.png"></center>
+
+<h2>Our Extraction, Transformation and Load Process</h2>
+<ul>
+    <li> Note, we will include screenshots of the notebook for the 1-bugs.ipynb the transformation process for 1-bugs.ipynb and 2-fish.ipynb was the same. </li>
+</ul>
+<ol>
+    <li> We read the table from the wiki links provided <a href="#Sources"> in sources. </a>
+    <img src = "Images/bugs_screenshot1.png" alt="Reading wiki Table">
+    <li> We then changed values to clean the data. </li>
+    <img src = "Images/bugs_screenshot2.png" alt="Changing cell values">
+    <li> The final transformation included splitting the tables for the database. </li>
+    <img src = "Images/bugs_screenshot3.png" alt="Creating encylopedia table">
+    <img src = "Images/bugs_screenshot4.png" alt="Creating months table">
+    <img src = "Images/bugs_screenshot5.png" alt="Creating time table">
+    <li> The loading is visualized in the screenshot below. </li>
+    <img src = "Images/bugs_screenshot6.png" alt="Loading the data">
+</ol>
+    <li>We scraped the Animal Crossing Wiki web pages for the Fish and Bugs data to pull out the tables.  The tables contain data for Fish and Bug Name, Price, Location, as well as the Time and Months that each is available to catch.  We put both of those tables into a DataFrame and assigned unique IDs for each item.</li>
+    <li>We pulled a csv file from Kaggle that contained the data for all of the Villagers such as Name, ID, Gender, Species.</li>
+    <li>We combined all of the data for Fish, Bugs and Villagers into a "Critterpedia" which can be used to track all of the players progress in collecting all possible critters.</li>
+    <li>Lastly, we created a user table which contains E-Mail addresses for players and their total collections.  This data was all created at random and does not contain any real user data.  This table would be used to track any players real progress in the game.
+</ul>
 
 <br>
 <center><img src="Images/nook.png"></center>
 <center><h2><b>Tom Nook</b><h2></center>
 
-<h1>File Structure</h1>
+<h1> Repository File Structure</h1>
 <ul>
     <li><b>Root</b></li>
         <ul>
@@ -50,14 +79,14 @@
             <li>schema.sql - The SQL to run to create the table structure for the ACNH_Critterpedia PostgresSQL database.</li>
         </ul>
     <li><b>Images</b> - Contains all image files needed for the README.md.</li>
-    <li><b>Notebooks</b> - Contains all of the project's Jupyter Notebooks.</li>
+    <li><b>Notebooks</b> - Contains all of the project's Jupyter Notebooks and the config.py file.</li>
     <li><b>Resources</b> - Contains the .csv data files needed for the table generation.</li>
 </ul>
 
-<h1>Data Structure</h1>
+<h1>Database Structure</h1>
 <h2>ERD</h2>
 <center><img src="Images/ERD.png"></center>
-<h2>Tables</h2>
+<h2>Database Tables</h2>
 <ul>
     <li><b>encyclopedia</b> - The master list of all "critters" in our database.</li>
         <ul>
@@ -104,6 +133,15 @@
 </ul>
 <br>
 <center><img src="Images/share-image-1.png"></center>
+
+<h1 id="Sources"> Sources </h1>
+
+<ul>
+    <li><a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere">https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere</a></li>
+    <li><a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)">https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
+    <li><a href="https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv">https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv</a></li>
+</ul>
+
 
 </body>
 </html>
