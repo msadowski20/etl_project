@@ -7,7 +7,7 @@
 <center><img src="Images/logo-acnh-en.png" class="center"></center><br>
 <center><img src="Images/Critterpedia_Trans.png" class="center" width=1000></center><br>
 </div>
-<h1><center>ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></h1>
+<h1><center><p align="center">ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></p></h1>
 
 
 <h2> For this project, we have created a "Critterpedia" of all of the bugs, fish, and villagers within Animal Crossing: New Horizons. Using our tool, you will be able to...</h2>
@@ -18,7 +18,7 @@
     <li>Which residents you have on your island.</li>
 </ul>
 
-<center><img src="Images/shell-2.png"><img src="Images/shell.png"><img src="Images/shell-2.png"></center>
+<center><img src="Images/shell-2.png"></center>
 
 <h1> Before You Begin </h1>
 
