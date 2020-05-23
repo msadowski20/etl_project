@@ -7,12 +7,8 @@
 <center><img src="Images/logo-acnh-en.png" class="center"></center><br>
 <center><img src="Images/Critterpedia_Trans.png" class="center" width=1000></center><br>
 </div>
-<<<<<<< HEAD
-<h1><center><b>ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></b></h1>
-=======
-<h1><center><p align="center">ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></p></h1>
->>>>>>> a505293b847739bee53a650284ed029fbe7ba914
 
+<h1><center><b>ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></b></h1>
 
 <h2> For this project, we have created a "Critterpedia" of all of the bugs, fish, and villagers within Animal Crossing: New Horizons. Using our tool, you will be able to...</h2>
 
