@@ -1,13 +1,17 @@
 
 <!DOCTYPE html>
 <html>
-   <body style = "font-family:'Zilla Slab'">
+<body style = "font-family:'Zilla Slab'">
 
 <div style="background-image: url('Images/pattern-leaves-white.jpg');">
 <center><img src="Images/logo-acnh-en.png" class="center"></center><br>
 <center><img src="Images/Critterpedia_Trans.png" class="center" width=1000></center><br>
 </div>
-<h1><center>ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></h1>
+<<<<<<< HEAD
+<h1><center><b>ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></b></h1>
+=======
+<h1><center><p align="center">ETL Project - Brian Remite, Jeremy Brent, Kevin Kleyman, Matt Sadowski<center></p></h1>
+>>>>>>> a505293b847739bee53a650284ed029fbe7ba914
 
 
 <h2> For this project, we have created a "Critterpedia" of all of the bugs, fish, and villagers within Animal Crossing: New Horizons. Using our tool, you will be able to...</h2>
@@ -18,7 +22,7 @@
     <li>Which residents you have on your island.</li>
 </ul>
 
-<center><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png"></center>
+<center><img src="Images/shell-2.png"></center>
 
 <h1> Before You Begin </h1>
 
@@ -29,8 +33,8 @@
 
 <li>Run the Jupyter Notebooks within the Notebooks folder to populate the database with data scraped/acquired from the following sources:
     <ul>
-    <li>Fish and Bugs data scraped from the Animal Crossing Wiki <a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</a> and <a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
-    <li>Villager data from kaggle (https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv)</li>
+    <li>Fish and Bugs data scraped from the Animal Crossing Wiki: <a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</a> and <a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
+    <li>Villager data from kaggle: <a href="https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv">https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv</a></li>
     </ul></li>
 </ol>
 
@@ -38,9 +42,21 @@
 <center><img src="Images/nook.png"></center>
 <center><h2><b>Tom Nook</b><h2></center>
 
+<h1>File Structure</h1>
+<ul>
+    <li><b>Root</b></li>
+        <ul>
+            <li>README.md - This markdown document detailing the project.</li>
+            <li>schema.sql - The SQL to run to create the table structure for the ACNH_Critterpedia PostgresSQL database.</li>
+        </ul>
+    <li><b>Images</b> - Contains all image files needed for the README.md.</li>
+    <li><b>Notebooks</b> - Contains all of the project's Jupyter Notebooks.</li>
+    <li><b>Resources</b> - Contains the .csv data files needed for the table generation.</li>
+</ul>
+
 <h1>Data Structure</h1>
 <h2>ERD</h2>
-<center><img src="Images/erd.png"></center>
+<center><img src="Images/ERD.png"></center>
 <h2>Tables</h2>
 <ul>
     <li><b>encyclopedia</b> - The master list of all "critters" in our database.</li>
