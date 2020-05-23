@@ -18,7 +18,7 @@
     <li>Which residents you have on your island.</li>
 </ul>
 
-<center><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png">   <img src="Images/shell.png"><img src="Images/shell-2.png"></center>
+<center><img src="Images/shell-2.png"><img src="Images/shell.png"><img src="Images/shell-2.png"></center>
 
 <h1> Before You Begin </h1>
 
@@ -29,8 +29,8 @@
 
 <li>Run the Jupyter Notebooks within the Notebooks folder to populate the database with data scraped/acquired from the following sources:
     <ul>
-    <li>Fish and Bugs data scraped from the Animal Crossing Wiki <a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</a> and <a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
-    <li>Villager data from kaggle (https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv)</li>
+    <li>Fish and Bugs data scraped from the Animal Crossing Wiki: <a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</a> and <a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
+    <li>Villager data from kaggle: <a href="https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv">https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv</a></li>
     </ul></li>
 </ol>
 
@@ -40,7 +40,7 @@
 
 <h1>Data Structure</h1>
 <h2>ERD</h2>
-<center><img src="Images/erd.png"></center>
+<center><img src="Images/ERD.png"></center>
 <h2>Tables</h2>
 <ul>
     <li><b>encyclopedia</b> - The master list of all "critters" in our database.</li>
