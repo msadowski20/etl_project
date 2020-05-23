@@ -29,7 +29,6 @@ CREATE TABLE months (
     Jul BOOLEAN,
     Aug BOOLEAN,
     Sep BOOLEAN,
-    Dep BOOLEAN,
     Oct BOOLEAN,
     Nov BOOLEAN,
     Dec BOOLEAN,
