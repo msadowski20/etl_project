@@ -23,18 +23,39 @@
 <h1> Before You Begin </h1>
 
 <ol>
-<li>Create a new database in PostgresSQL titled "ACNH Critterpedia".</li>
+<li>Create a new database in PostgresSQL titled "ACNH_Critterpedia", and then open up the query tool in the new database.</li>
 
-<li>Run the schema.sql in the root to create the schema within PostgresSQL.</li>
+<li>Copy the code from schema.sql in the root of the repository into the query tool to create the schema within PostgresSQL.</li>
 
-<li>Update the <i>/Resources/config.py</i> file with your username and password for PostgresSQL.</li>
+<li>Open and update the <i>/Resources/config.py</i> file with your username and password for PostgresSQL.</li>
 
-<li>Run the Jupyter Notebooks within the Notebooks folder in the numerical order specified to populate the database with data scraped/acquired from the following sources:
-    <ul>
-    <li>Fish and Bugs data scraped from the Animal Crossing Wiki: <a href="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</a> and <a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)"> https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
-    <li>Villager data from kaggle: <a href="https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv">https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv</a></li>
-    </ul></li>
+<li>Run the Jupyter Notebooks within the Notebooks folder in the numerical order specified to populate the database.
+    <ol>
+        <li>bugs.ipynb</li>
+        <li>fish.ipynb</li>
+        <li>villagers.ipynb</li>
+        <li>collections.ipynb</li>
+    </ol>
+    </li>
 </ol>
+
+<center><img src="Images/shell.png"></center>
+
+<h1> Sources </h1>
+
+<ul>
+    <li>We scraped the Animal Crossing Wiki web pages for the Fish and Bugs data to pull out the tables.  The tables contain data for Fish and Bug Name, Price, Location, as well as the Time and Months that each is available to catch.  We put both of those tables into a DataFrame and assigned unique IDs for each item.</li>
+    <ul>
+        <li><a herf="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere">https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)#Northern%20Hemisphere</a></li>
+        <li><a href="https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)">https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)</a></li>
+    </ul>
+    <li>We pulled a csv file from Kaggle that contained the data for all of the Villagers such as Name, ID, Gender, Species.</li>
+    <ul>
+        <li><a href="https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv">https://www.kaggle.com/jessemostipak/animal-crossing?select=villagers.csv</a></li>
+    </ul>
+    <li>We combined all of the data for Fish, Bugs and Villagers into a "Critterpedia" which can be used to track all of the players progress in collecting all possible critters.</li>
+    <li>Lastly, we created a user table which contains E-Mail addresses for players and their total collections.  This data was all created at random and does not contain any real user data.  This table would be used to track any players real progress in the game.
+</ul>
 
 <br>
 <center><img src="Images/nook.png"></center>
