@@ -43,6 +43,12 @@
 
 <h2>Our Data Transformation Process</h2>
 <ul>
+    <li> Note, we will include screenshots of the notebook for the 1-bugs.ipynb the transformation process for 1-bugs.ipynb and 2-fish.ipynb was the same. </li>
+    <img src = "Images/bugs_screenshot1.png" alt="Reading wiki Table">
+    <img src = "Images/bugs_screenshot2.png" alt="Changing cell values">
+    <img src = "Images/bugs_screenshot3.png" alt="Creating encylopedia table">
+    <img src = "Images/bugs_screenshot4.png" alt="Creating months table">
+    <img src = "Images/bugs_screenshot5.png" alt="Creating time table">
     <li>We scraped the Animal Crossing Wiki web pages for the Fish and Bugs data to pull out the tables.  The tables contain data for Fish and Bug Name, Price, Location, as well as the Time and Months that each is available to catch.  We put both of those tables into a DataFrame and assigned unique IDs for each item.</li>
     <li>We pulled a csv file from Kaggle that contained the data for all of the Villagers such as Name, ID, Gender, Species.</li>
     <li>We combined all of the data for Fish, Bugs and Villagers into a "Critterpedia" which can be used to track all of the players progress in collecting all possible critters.</li>
@@ -61,7 +67,7 @@
             <li>schema.sql - The SQL to run to create the table structure for the ACNH_Critterpedia PostgresSQL database.</li>
         </ul>
     <li><b>Images</b> - Contains all image files needed for the README.md.</li>
-    <li><b>Notebooks</b> - Contains all of the project's Jupyter Notebooks.</li>
+    <li><b>Notebooks</b> - Contains all of the project's Jupyter Notebooks and the config.py file.</li>
     <li><b>Resources</b> - Contains the .csv data files needed for the table generation.</li>
 </ul>
 
